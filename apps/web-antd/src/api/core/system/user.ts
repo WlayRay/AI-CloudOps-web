@@ -75,7 +75,7 @@ export async function changePassword(data: ChangePasswordReq) {
 }
 
 export async function deleteUser(id: number) {
-  return requestClient.delete(`/user/${id}`);
+  return requestClient.delete(`/user/${id}/delete`);
 }
 
 export async function updateUserInfo(data: UpdateProfileReq) {
